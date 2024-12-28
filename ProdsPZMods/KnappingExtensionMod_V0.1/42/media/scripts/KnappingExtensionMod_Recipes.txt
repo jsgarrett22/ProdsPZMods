@@ -1,0 +1,23 @@
+module KnappingExtensionMod
+{
+	imports
+	{
+		Base
+	}
+	
+	craftRecipe MakeBasicKnapper
+	{
+		timedAction = Making,
+		Time		= 15,
+		Tags		= InHandCraft;CanBeDoneInDark,
+		category	= Miscellanenous,
+		inputs
+		{
+			item 1 [Base.Plank],
+		}
+		outputs
+		{
+			item 1 KnappingExtensionMod.BasicKnapper,
+		}
+	}
+}

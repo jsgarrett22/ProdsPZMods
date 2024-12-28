@@ -1,0 +1,21 @@
+module KnappingExtensionMod
+{
+	imports
+	{
+		Base
+	}
+	
+	item BasicKnapper
+	{
+		DisplayName = Basic Knapper,
+		DisplayCategory = Tool,
+		Type = Normal,
+		Weight = 1.5,
+		Icon = WoodMallet,
+		StaticModel = WoodMallet,
+		WorldStaticModel = WoodMallet,
+		Tags = Mallet;IsFireFuel;RepairWithGlue;RepairWithTape,
+		Tooltip = Tooltip_no_nails,
+        ConditionLowerChanceOneIn = 10,
+	}
+}

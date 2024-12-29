@@ -1,0 +1,29 @@
+/* 
+		Author: Prod
+		Github: https://github.com/jsgarrett22/ProdsPZMods
+		Last Updated: 12/29/2024
+*/
+
+module KnappingExtensionMod
+{
+	imports
+	{
+		Base
+	}
+	
+	/* Cheap, craftable, fragile basic knapping tool */
+	item WoodenKnapper
+	{
+		DisplayName = Wooden Knapper,
+		DisplayCategory = Tool,
+		Type = Normal,
+		Weight = 1.5,
+		Icon = WoodMallet,
+		StaticModel = KnappingTool,
+		WorldStaticModel = KnappingTool,
+		Tags = KnappingTool;IsFireFuel;RepairWithGlue;RepairWithTape;ShowCondition,
+		Tooltip = Tooltip_item_WoodenKnapper,
+		ConditionMax = 5,
+        	ConditionLowerChanceOneIn = 5,
+	}
+}

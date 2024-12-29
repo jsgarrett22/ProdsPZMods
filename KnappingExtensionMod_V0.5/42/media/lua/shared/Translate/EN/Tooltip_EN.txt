@@ -1,0 +1,3 @@
+Tooltip_EN = {
+	Tooltip_item_WoodenKnapper = "Looks like you could shape rock with this."
+}
